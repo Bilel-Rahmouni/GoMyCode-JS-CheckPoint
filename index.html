@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Store</title>
+    <meta name="description" content="This is the description" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="container content-section">
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Converse</span>
+          <img
+            style="width: 100px; height: 100px;"
+            class="shop-item-image"
+            src="Converse.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">129DT</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+            <i class="fas fa-heart liked"></i>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Air</span>
+          <img
+            class="shop-item-image"
+            style="width: 100px; height: 100px;"
+            src="Air.jpg"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">420DT</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+            <i class="fas fa-heart liked"></i>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Running</span>
+          <img class="shop-item-image" src="Running.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">320DT</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART</button
+            ><i class="fas fa-heart liked"></i>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Puzzle</span>
+          <img class="shop-item-image" src="Puzzle.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">240DT</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART</button
+            ><i class="fas fa-heart liked"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container content-section">
+      <h2>CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">0DT</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        PURCHASE
+      </button>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/7c2fa87f07.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <script src="main.js" async></script>
+  </body>
+</html>
