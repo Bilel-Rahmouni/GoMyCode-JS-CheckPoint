@@ -11,10 +11,7 @@
 * {
   box-sizing: border-box;
   font-family: Raleway;
-  color: #777;
-}
-
-html,
+  }
 body {
   margin: 0;
   padding: 0;
@@ -215,6 +212,9 @@ body {
 
 .cart-row:last-child {
   border-bottom: 1px solid black;
+}
+.liked{
+  color: #333;
 }
 
 .cart-row:last-child .cart-column {
