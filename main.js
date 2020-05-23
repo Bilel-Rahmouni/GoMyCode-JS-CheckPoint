@@ -111,11 +111,6 @@ function updateCartTotal() {
     "DT" + total;
 }
 var like = document.querySelectorAll(".liked").forEach((like) => {
-  like.addEventListener("click", (event) => {
-    like.style.color = "red";
-  });
-});
-var like = document.querySelectorAll(".liked").forEach((like) => {
   like.addEventListener("click", () => {
    if (like.style.color==="grey") { like.style.color = "red"}
    else  {
