@@ -115,3 +115,11 @@ var like = document.querySelectorAll(".liked").forEach((like) => {
     like.style.color = "red";
   });
 });
+var like = document.querySelectorAll(".liked").forEach((like) => {
+  like.addEventListener("click", () => {
+   if (like.style.color==="grey") { like.style.color = "red"}
+   else  {
+           like.style.color = "grey";
+         }
+  });
+});
