@@ -112,7 +112,7 @@ function updateCartTotal() {
 }
 var like = document.querySelectorAll(".liked").forEach((like) => {
   like.addEventListener("click", () => {
-   if (like.style.color==="default") { like.style.color = "red"}
-   else {like.style.color = "default";}
+   if (like.style.color==="black") { like.style.color = "red"}
+   else {like.style.color = "black";}
   });
 });
