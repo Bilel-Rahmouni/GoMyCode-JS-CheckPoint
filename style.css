@@ -18,7 +18,7 @@ body {
   min-height: 100%;
 
 }
-.liked{ color: black;}
+.liked{ background-color: black;}
 
 .main-header {
   background-color: rgba(0, 0, 0, 0.6);
