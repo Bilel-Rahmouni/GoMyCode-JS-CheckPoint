@@ -112,9 +112,9 @@ function updateCartTotal() {
 }
 var like = document.querySelectorAll(".liked").forEach((like) => {
   like.addEventListener("click", () => {
-   if (like.style.color==="#333") { like.style.color = "red"}
+   if (like.style.color==="grey") { like.style.color = "red"}
    else  {
-           like.style.color = "#333";
+           like.style.color = "grey";
          }
   });
 });
