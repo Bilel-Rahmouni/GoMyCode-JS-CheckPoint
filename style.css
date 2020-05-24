@@ -213,9 +213,6 @@ body {
 .cart-row:last-child {
   border-bottom: 1px solid black;
 }
-.liked{
-  color: grey;
-}
 
 .cart-row:last-child .cart-column {
   border: none;
