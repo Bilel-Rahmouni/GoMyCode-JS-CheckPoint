@@ -214,7 +214,7 @@ body {
   border-bottom: 1px solid black;
 }
 .liked{
-  color: #333;
+  color: grey;
 }
 
 .cart-row:last-child .cart-column {
